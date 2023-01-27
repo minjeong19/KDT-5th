@@ -1,0 +1,12 @@
+@import url(./paddingstyle.css);
+
+p {
+  color: beige;
+  background-color: black;
+}
+
+span {
+  color: rgb(184, 184, 199);
+  background-color: rgb(31, 31, 83);
+}
+

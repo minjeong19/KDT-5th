@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h3>음료 선택하기</h3>
+      <!--select 쓸 때 name 필수,  name으로 데이터를 받음 -->
+      <select name="menu">
+        <optgroup label="coffe">
+          <option value="americano">아메리카노</option>
+          <option value="latte">라떼</option>
+          <option value="cappuccino" disabled>카푸치노</option>
+        </optgroup>
+        <optgroup label="other">
+          <option value="lemonade">레몬에이드</option>
+          <option value="hotchocd" selected>핫초코</option>
+          <option value="smoothie">스무디</option>
+        </optgroup>
+      </select>
+      <!-- <input type="button" value="클릭해 주세요" />옛날 방식 -->
+      <button>Click</button>
+    </div>
+    <input type="text" placeholder="잠깐 보이는 친구" />
+    <input type="password" /><br />
+    <input type="checkbox" name="meenu" value="coffee" />커피
+    <input type="checkbox" name="meenu" value="adㅉe" />에이드
+    <input type="checkbox" name="meenu" value="tea" />차
+  </body>
+</html>

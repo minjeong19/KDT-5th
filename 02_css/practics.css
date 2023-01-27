@@ -1,0 +1,11 @@
+@import url(./practics-1.css);
+
+p {
+  color: white;
+  background-color: red;
+}
+
+h3 {
+  color: white;
+  background-color: rgb(167, 30, 30);
+}
