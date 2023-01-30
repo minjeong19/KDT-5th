@@ -1,0 +1,16 @@
+/* 마우스가 그냥 위에 있을 때 */
+a:hover {
+  color: red;
+}
+/* 마우스가 클릭을 하는 중 */
+a:active {
+  background-color: orange;
+}
+
+input:focus {
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+}

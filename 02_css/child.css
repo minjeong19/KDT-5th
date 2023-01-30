@@ -1,0 +1,4 @@
+/* 자식선택자 직계까지만 가능 */
+ul > .orange {
+  color: orange;
+}

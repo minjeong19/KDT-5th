@@ -1,0 +1,17 @@
+/* .fruits span:first-child {
+  color: red;
+}
+
+.fruits h3:last-child {
+  color: rgb(29, 110, 124);
+} */
+
+/* 
+2n 짝수, 2n+1 홀수
+.fruits *:nth-child(2n) {
+  background-color: pink;
+} */
+
+.fruits *:not(span) {
+  color: red;
+}

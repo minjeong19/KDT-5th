@@ -1,0 +1,8 @@
+/* 일치 선택자 선택자 2개를 띄어쓰기 없이 연달아서  */
+.orange {
+  color: orange;
+}
+
+span.orange {
+  background-color: pink;
+}

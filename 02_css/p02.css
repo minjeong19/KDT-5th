@@ -1,0 +1,29 @@
+/* 일치선택자 */
+p.lion {
+  background-color: red;
+}
+
+/* css는 구체적으로 써주는게 좋음 */
+.zoo > ul > .lion {
+  background-color: green;
+}
+
+.zoo .lion {
+  font-weight: bold;
+}
+
+#tiger {
+  background-color: yellow;
+}
+
+#tiger + li {
+  background-color: skyblue;
+}
+
+.lion {
+  color: white;
+}
+
+div.zoo > ul > .lion ~ li {
+  background-color: orange;
+}

@@ -1,0 +1,25 @@
+/* 10 + 가상클래스 10  */
+.zoo *:nth-child(2n) {
+  background-color: orange;
+}
+
+.zoo p:first-child {
+  background-color: purple;
+}
+
+/* .zoo *:not(.predator) {
+  background-color: green;
+} */
+
+/* 10 + 1 */
+.zoo *:not(p) {
+  background-color: green;
+}
+
+.zoo *:last-child:hover {
+  background-color: red;
+}
+
+.zoo *:nth-child(3) {
+  background-color: blue;
+}

@@ -1,0 +1,9 @@
+/* 앞으로 추가 */
+.box::before {
+  content: "앞 ";
+}
+
+/* 뒤로 추가 */
+.box::after {
+  content: " 뒤 ";
+}
