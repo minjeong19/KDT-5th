@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      div {
-        width: 100px;
-        height: 100px;
-        background-color: pink;
-        transition-duration: 3s;
-        transition-delay: 1s;
+      body {
+        background-color: peru;
       }
-
-      div:hover {
-        width: 300px;
-        height: 600px;
-        background-color: skyblue;
+      @media screen and (max-width: 500px) {
+        body {
+          background-color: orange;
+        }
+      }
+      @media screen and (max-width: 300px) {
+        body {
+          background-color: skyblue;
+        }
       }
     </style>
   </head>
-  <body>
-    <div></div>
-  </body>
+  <body></body>
 </html>

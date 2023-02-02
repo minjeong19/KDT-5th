@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000px;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+      }
+      .parent {
+        position: relative;
+        background-color: gray;
+      }
+      .child {
+        position: absolute;
+        background-color: blue;
+
+        /* 움직이는 거 */
+        /* transform: translate(40px, 40px); 0값도 가능 */
+        /* transform: translateX(40px); */
+        /* transform: translateY(40px); */
+
+        /* 크기를 변화게 하는 scale */
+        /* transform: scale(2); */
+
+        /* 하나의 값을 넣으면 x축을 기준으로 바뀜 */
+        transform: skew(45deg);
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+  </body>
+</html>
