@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      window.localStorage.setItem("name", "김민정");
+      //   console.log(window.localStorage.getItem("name"));
+
+      window.localStorage.setItem("number", 1);
+      const number = window.localStorage.getItem("number");
+      //   console.log(number);
+      //   console.log(typeof number);
+
+      const mj = {
+        name: "김민정",
+        age: 25,
+        hobby: ["놀기", "인형뽑기"],
+      };
+
+      const jsonmj = JSON.stringify(mj);
+      window.localStorage.setItem("mj", jsonmj);
+      const jsonMjFromLocal = window.localStorage.getItem("mj");
+      const objmj = JSON.parse(jsonMjFromLocal);
+      console.log(objmj);
+
+      window.localStorage.setItem("pororo", "뽀로로에요!");
+      console.log(localStorage.getItem("pororo"));
+      window.localStorage.removeItem("pororo");
+      console.log(localStorage);
+      //     console.log(mj);
+      //     console.log(jsonmj);
+
+      //   console.log(objmj);
+      window.localStorage.clear();
+      window.localStorage.setItem("luppy", "루피");
+      window.sessionStorage.setItem("pororo", "뽀로로");
+    </script>
+  </head>
+  <body></body>
+</html>
